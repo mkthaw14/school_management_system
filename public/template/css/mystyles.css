@@ -1,0 +1,55 @@
+:root{
+    --main_color: rgb(6, 44, 19);
+}
+
+body{
+    font-family: "Open Sans", sans-serif !important;
+}
+
+a.navbar-brand{
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-link{
+    color: black;
+}
+
+.list-view{
+    /*border-bottom: 3px solid grey;*/
+}
+
+.list-view a{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+a:hover{
+    color: rgb(11, 92, 42) !important;
+}
+
+.my-pagination-links a, footer a{
+    color: black !important;
+}
+
+
+.my-nav-dark, .bg-success, .btn-success, .btn-primary{
+    background-color: var(--main_color) !important;
+}
+
+.sb-sidenav-footer{
+    background-color: var(--main_color) !important;
+    color : white;
+}
+
+
+
+.my-pagination-links nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card tbody .table-td:hover{
+    background-color: var(--main_color);
+    color : white;
+}
